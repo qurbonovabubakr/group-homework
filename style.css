@@ -481,3 +481,51 @@ header {
     border-radius: 17px;
     font-size: 10px;
 }
+
+.footer {
+    height: 175px;
+    margin: 40px 71px;
+    padding-left: 125px;
+}
+
+.footer-left {
+    float: left;
+    width: 165px;
+    margin-right: 98px;
+    padding-top: 26px;
+}
+
+.footer-text {
+    font-size: 11px;
+    line-height: 15px;
+    color: #555555;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-icon {
+    width: 11px;
+    height: 11px;
+    margin-right: 17px;
+}
+
+.footer-col {
+    float: left;
+    width: 120px;
+    margin-right: 24px;
+}
+
+.footer-title {
+    margin-bottom: 6px;
+    font-size: 17px;
+    color: #222222;
+}
+
+.footer-link {
+    margin-top: 14px;
+    font-size: 11px;
+    line-height: 11px;
+    color: #444444;
+}
