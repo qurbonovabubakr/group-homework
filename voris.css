@@ -355,3 +355,80 @@ h2{
         height: 220px;
     }
 }
+.facilities{
+    padding-top: 148px;
+}
+.fac-wrap{
+    display: grid;
+    grid-template-columns: 1fr 843px;
+    align-items: start;
+}
+.fac-title{
+    width: 400px;
+    font-size: 38px;
+}
+.fac-text{
+    width: 380px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgb(105, 110, 115);
+}
+.fac-btn{
+    width: 164px;
+    height: 52px;
+    margin-top: 48px;
+}
+.fac-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 192px);
+    grid-template-rows: repeat(2, 192px);
+    gap: 25px;
+}
+.fac{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    gap: 16px;
+    border: 1px solid rgb(235, 238, 238);
+    background-color: white;
+}
+.fac i{
+    font-size: 34px;
+    color: rgb(37, 170, 110);
+}
+.fac-name{
+    font-size: 14px;
+}
+@media (max-width: 1200px){
+    .fac-wrap{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .fac-title{
+        width: 600px;
+    }
+    .fac-text{
+        width: 600px;
+    }
+    .fac-grid{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 150px);
+        gap: 16px;
+    }
+}
+@media (max-width: 700px){
+    .facilities{
+        padding-top: 60px;
+    }
+    .fac-title{
+        width: 300px;
+    }
+    .fac-text{
+        width: 300px;
+    }
+    .fac-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 130px);
+        gap: 12px;
+    }
+}
