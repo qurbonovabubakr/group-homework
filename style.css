@@ -298,3 +298,67 @@ header {
     border-radius: 17px;
     font-size: 11px;
 }
+
+.faq {
+    height: 330px;
+    margin: 40px 71px;
+}
+
+.faq-left {
+    float: left;
+    width: 38%;
+    padding-top: 10px;
+}
+
+.faq-title {
+    font-size: 30px;
+    color: #0f1b3d;
+}
+
+.faq-green {
+    color: #22a96b;
+}
+
+.faq-subtitle {
+    width: 260px;
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #555555;
+}
+
+.faq-right {
+    float: right;
+    width: 58%;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 17px 18px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.faq-top {
+    height: 20px;
+}
+
+.faq-question {
+    float: left;
+    font-size: 13px;
+    color: #111111;
+}
+
+.faq-arrow {
+    float: right;
+    font-size: 16px;
+    color: #111111;
+}
+
+.faq-answer {
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #555555;
+}
