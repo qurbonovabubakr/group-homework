@@ -1,0 +1,164 @@
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 44px;
+}
+
+.menu {
+    margin-left: 330px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.login {
+    margin-left: auto;
+    width: 57px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 157px;
+}
+
+.left {
+    width: 418px;
+}
+
+.big-img {
+    display: block;
+    width: 418px;
+    height: 325px;
+    border-radius: 15px;
+}
+
+.bottom {
+    display: flex;
+    margin-top: -25px;
+    margin-left: -81px;
+}
+
+.card {
+    width: 216px;
+    padding: 13px 15px 20px 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.avatar {
+    display: block;
+    width: 39px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: -39px;
+    margin-top: -38px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.card-name {
+    font-size: 19px;
+}
+
+.card-info {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.card-job {
+    display: inline-block;
+    color: gray;
+    margin-right: 15px;
+}
+
+.card-rating {
+    display: inline-block;
+    color: #22a96b;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.small-row {
+    display: flex;
+    margin-top: 52px;
+    margin-left: 2px;
+}
+
+.small-img {
+    width: 104px;
+    height: 52px;
+    margin-right: 38px;
+    border-radius: 10px;
+}
+
+.right {
+    width: 340px;
+    margin-left: 65px;
+}
+
+.city {
+    color: #22a96b;
+    font-size: 11px;
+}
+
+.title {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.price-row {
+    margin-top: 20px;
+}
+
+.price {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.stars {
+    display: inline-block;
+    color: #f25c5c;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.book-btn {
+    margin-top: 40px;
+    margin-left: 168px;
+    width: 154px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 16px;
+    font-size: 14px;
+}
