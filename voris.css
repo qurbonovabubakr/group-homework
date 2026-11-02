@@ -252,3 +252,106 @@ h2{
         border-radius: 28px;
     }
 }
+.hotels{
+    padding-top: 125px;
+}
+.h-head{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+}
+.h-sub{
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(105, 110, 115);
+}
+.view{
+    display: grid;
+    place-items: center;
+    width: 108px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(243, 250, 248);
+    font-size: 13px;
+    color: rgb(37, 170, 110);
+}
+.h-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 61px;
+}
+.h-card{
+    border-radius: 12px;
+    background-color: rgb(250, 250, 250);
+}
+.h-img{
+    width: 100%;
+    height: 321px;
+    border-radius: 12px 12px 0px 0px;
+}
+.h-body{
+    padding: 16px 16px 24px 16px;
+}
+.h-loc{
+    font-size: 11px;
+    color: rgb(37, 170, 110);
+}
+.h-name{
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.h-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+    margin-top: 14px;
+}
+.h-price{
+    font-size: 13px;
+}
+.h-stars{
+    font-size: 11px;
+    color: rgb(235, 80, 80);
+}
+.h-stars i{
+    margin-left: 4px;
+}
+.sep{
+    margin-right: 10px;
+    color: rgb(200, 205, 205);
+}
+.h-rate{
+    font-size: 13px;
+}
+@media (max-width: 1200px){
+    .h-img{
+        height: 240px;
+    }
+    .h-name{
+        font-size: 18px;
+    }
+}
+@media (max-width: 700px){
+    .hotels{
+        padding-top: 60px;
+    }
+    .h-head{
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .h-sub{
+        width: 300px;
+    }
+    .h-grid{
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+    .h-img{
+        height: 220px;
+    }
+}
