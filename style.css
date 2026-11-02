@@ -1,0 +1,531 @@
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 44px;
+}
+
+.menu {
+    margin-left: 330px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.login {
+    margin-left: auto;
+    width: 57px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 157px;
+}
+
+.left {
+    width: 418px;
+}
+
+.big-img {
+    display: block;
+    width: 418px;
+    height: 325px;
+    border-radius: 15px;
+}
+
+.bottom {
+    display: flex;
+    margin-top: -25px;
+    margin-left: -81px;
+}
+
+.card {
+    width: 216px;
+    padding: 13px 15px 20px 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.avatar {
+    display: block;
+    width: 39px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: -39px;
+    margin-top: -38px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.card-name {
+    font-size: 19px;
+}
+
+.card-info {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.card-job {
+    display: inline-block;
+    color: gray;
+    margin-right: 15px;
+}
+
+.card-rating {
+    display: inline-block;
+    color: #22a96b;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.small-row {
+    display: flex;
+    margin-top: 52px;
+    margin-left: 2px;
+}
+
+.small-img {
+    width: 104px;
+    height: 52px;
+    margin-right: 38px;
+    border-radius: 10px;
+}
+
+.right {
+    width: 340px;
+    margin-left: 65px;
+}
+
+.city {
+    color: #22a96b;
+    font-size: 11px;
+}
+
+.title {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.price-row {
+    margin-top: 20px;
+}
+
+.price {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.stars {
+    display: inline-block;
+    color: #f25c5c;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.book-btn {
+    margin-top: 40px;
+    margin-left: 168px;
+    width: 154px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.hotels {
+    padding: 40px 71px;
+}
+
+.hotels-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotels-title {
+    font-size: 30px;
+    color: #222222;
+}
+
+.hotels-subtitle {
+    width: 300px;
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.hotels-btn {
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #e8f6ef;
+    color: #22a96b;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.hotels-cards {
+    display: flex;
+    margin-top: 25px;
+}
+
+.hotels-card {
+    flex: 1;
+    background-color: #fafafa;
+    border-radius: 15px;
+}
+
+.hotels-card+.hotels-card {
+    margin-left: 17px;
+}
+
+.hotels-img {
+    display: block;
+    width: 100%;
+    height: 228px;
+    border-radius: 15px 15px 0 0;
+}
+
+.hotels-body {
+    padding: 15px 11px 25px 11px;
+}
+
+.hotels-city {
+    color: #22a96b;
+    font-size: 9px;
+}
+
+.hotels-name {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #222222;
+}
+
+.hotels-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.hotels-price {
+    padding-right: 20px;
+    border-right: 1px solid #dddddd;
+}
+
+.hotels-stars {
+    margin-left: 20px;
+    color: #f25c5c;
+}
+
+.hotels-rating {
+    margin-left: 15px;
+}
+
+.history {
+    height: 320px;
+    margin: 40px 71px;
+    background-color: #f4fbf8;
+    border-radius: 15px;
+}
+
+.history-img {
+    float: left;
+    width: 50%;
+    height: 320px;
+    border-radius: 15px 0 0 15px;
+}
+
+.history-text {
+    float: left;
+    width: 40%;
+    padding: 50px 5%;
+}
+
+.history-title {
+    font-size: 26px;
+    color: #111111;
+}
+
+.history-p {
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 18px;
+    color: #555555;
+}
+
+.history-btn {
+    margin-top: 30px;
+    width: 103px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 17px;
+    font-size: 11px;
+}
+
+.faq {
+    height: 330px;
+    margin: 40px 71px;
+}
+
+.faq-left {
+    float: left;
+    width: 38%;
+    padding-top: 10px;
+}
+
+.faq-title {
+    font-size: 30px;
+    color: #0f1b3d;
+}
+
+.faq-green {
+    color: #22a96b;
+}
+
+.faq-subtitle {
+    width: 260px;
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #555555;
+}
+
+.faq-right {
+    float: right;
+    width: 58%;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 17px 18px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.faq-top {
+    height: 20px;
+}
+
+.faq-question {
+    float: left;
+    font-size: 13px;
+    color: #111111;
+}
+
+.faq-arrow {
+    float: right;
+    font-size: 16px;
+    color: #111111;
+}
+
+.faq-answer {
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #555555;
+}
+
+.about {
+    width: 900px;
+    height: 320px;
+    margin: 40px auto;
+}
+
+.about-img {
+    float: left;
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+}
+
+.about-box {
+    width: 490px;
+    height: 295px;
+    margin-left: 270px;
+    margin-top: 8px;
+    padding: 0 40px 0 100px;
+    background-color: #e8f6ef;
+    border-radius: 10px;
+}
+
+.about-title {
+    padding-top: 55px;
+    font-size: 24px;
+    color: black;
+}
+
+.about-p {
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 17px;
+    color: #111111;
+}
+
+.about-btn {
+    margin-top: 20px;
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+.location {
+    position: relative;
+    margin: 40px 71px;
+}
+
+.location-map {
+    display: block;
+    width: 100%;
+    height: 415px;
+    border-radius: 15px;
+}
+
+.location-box {
+    position: absolute;
+    left: 27px;
+    right: 27px;
+    bottom: 27px;
+    height: 62px;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.location-left {
+    float: left;
+    width: 45%;
+}
+
+.location-title {
+    font-size: 22px;
+    color: #111111;
+}
+
+.location-text {
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 17px;
+    color: #444444;
+}
+
+.location-form {
+    float: right;
+    width: 270px;
+    height: 34px;
+    margin-top: 20px;
+    background-color: #fafafa;
+    border-radius: 17px;
+}
+
+.location-email {
+    float: left;
+    padding-left: 15px;
+    line-height: 34px;
+    font-size: 9px;
+    color: #666666;
+}
+
+.location-btn {
+    float: right;
+    width: 76px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #22a96b;
+    color: white;
+    border-radius: 17px;
+    font-size: 10px;
+}
+
+.footer {
+    height: 175px;
+    margin: 40px 71px;
+    padding-left: 125px;
+}
+
+.footer-left {
+    float: left;
+    width: 165px;
+    margin-right: 98px;
+    padding-top: 26px;
+}
+
+.footer-text {
+    font-size: 11px;
+    line-height: 15px;
+    color: #555555;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-icon {
+    width: 11px;
+    height: 11px;
+    margin-right: 17px;
+}
+
+.footer-col {
+    float: left;
+    width: 120px;
+    margin-right: 24px;
+}
+
+.footer-title {
+    margin-bottom: 6px;
+    font-size: 17px;
+    color: #222222;
+}
+
+.footer-link {
+    margin-top: 14px;
+    font-size: 11px;
+    line-height: 11px;
+    color: #444444;
+}
